@@ -7,11 +7,11 @@ This project demonstrates how to:<br>
 - Build a standalone, static user‐space loader (readline_loader) that attaches the BPF program to Bash. <br>
 
  Usage: sudo ./readline_loader [options]<br>
- Options:<br>
-   -h, --help                Show this help message<br>
-   -t, --tcp-server <host>   Send output via TCP to <host> on port 8080<br>
-   -n, --no-file             Do not write output to the local JSON file<br>
-   -o, --output-file <FILE>  Specify a different local output file (default: /tmp/Output.log)<br>
+&#9; Options:<br>
+&#9;&#9;   -h, --help                Show this help message<br>
+&#9;&#9;   -t, --tcp-server <host>   Send output via TCP to <host> on port 8080<br>
+&#9;&#9;   -n, --no-file             Do not write output to the local JSON file<br>
+&#9;&#9;   -o, --output-file <FILE>  Specify a different local output file (default: /tmp/Output.log)<br>
 
 Kernel version 4.12 and upper<br>
 
