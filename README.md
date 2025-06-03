@@ -6,7 +6,7 @@ This project demonstrates how to:<br>
 - Generate a libbpf skeleton header (readline_tracker.skel.h).<br>
 - Build a standalone, static user‐space loader (readline_loader) that attaches the BPF program to Bash. <br>
 
-##  Usage: sudo ./readline_loader [options]<br>
+ Usage: sudo ./readline_loader [options]<br>
  Options:<br>
    -h, --help                Show this help message<br>
    -t, --tcp-server <host>   Send output via TCP to <host> on port 8080<br>
