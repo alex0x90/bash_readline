@@ -5,5 +5,12 @@ This project demonstrates how to:
 - Compile a BPF program (readline_tracker.bpf.c) against the kernel’s BTF (vmlinux.h).
 - Generate a libbpf skeleton header (readline_tracker.skel.h).
 - Build a standalone, static user‐space loader (readline_loader) that attaches the BPF program to Bash. 
-Usage:
-![image](https://github.com/user-attachments/assets/3bb62677-5380-4270-9849-165753fac6b0)
+
+Usage: sudo ./readline_loader [options]
+Options:
+  -h, --help                Show this help message
+  -t, --tcp-server <host>   Send output via TCP to <host> on port 8080
+  -n, --no-file             Do not write output to the local JSON file
+  -o, --output-file <FILE>  Specify a different local output file (default: /tmp/Output.log)
+
+
