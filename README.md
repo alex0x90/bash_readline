@@ -14,3 +14,8 @@ Options:
   -o, --output-file <FILE>  Specify a different local output file (default: /tmp/Output.log)
 
 Kernel version 4.12 and upper
+
+# Architecture
+
+![image](https://github.com/user-attachments/assets/24f6ed1d-7a7b-4558-a6fb-ab5531c0f135)
+
