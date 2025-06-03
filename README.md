@@ -1,4 +1,4 @@
-# bash readline monitor app
+# Bash readline monitor app
 
 A small eBPF CO-RE tracer app that hooks into Bash`s readline() function the output save into /tmp/Output.log or could be sent to remote host.
 This project demonstrates how to:
@@ -13,4 +13,4 @@ Options:
   -n, --no-file             Do not write output to the local JSON file
   -o, --output-file <FILE>  Specify a different local output file (default: /tmp/Output.log)
 
-
+Kernel version 4.12 and upper
